@@ -7,6 +7,7 @@ Step 1: Tune the training algorithm by adjusting the size of the training datase
 Step 2: Tune the trading algorithm by adjusting the SMA input features
     By increasing both SMA window (short and long), overall, Strategy Returns performs much worse than the Actual Returns. 
 ![alt text](https://github.com/davidzou0325/Algorithmic_Trading_Bot/blob/main/SMA-window%20Adjust%20plot.png)
+
 Step 3: Choose the set of parameters that best improved the trading algorithm returns.
     I will choose the original SMA window and training size since both strategy has their shortages compare to original strategy.
     
@@ -16,5 +17,6 @@ Conclusion of Comparison Between SVM Model and LogisticRegression Model:
     
 SVM Model:
 ![alt text](https://github.com/davidzou0325/Algorithmic_Trading_Bot/blob/main/Original%20Plot.png)
+
 LogisticRegression Model:
 ![alt text](https://github.com/davidzou0325/Algorithmic_Trading_Bot/blob/main/LogisticRegression%20Model%20Plot.png)
